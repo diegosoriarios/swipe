@@ -1,3 +1,8 @@
+:root {
+  --main-bg-color: lightyellow;
+  --main-txt-color: blue; 
+  --main-padding: 15px; 
+}
 .App {
   text-align: center;
 }
@@ -29,4 +34,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.b-content{
+  width: 80%;
+  background-color: var(--main-bg-color);
+  margin: 0 auto;
+}
+
+.status {
+  background-color: var(--main-bg-color);
+}
+
+.status li{
+  display: inline-block;
+  margin-right: 25%;
 }
