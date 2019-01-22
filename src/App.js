@@ -83,8 +83,10 @@ class App extends Component {
       return (
         <div className="b-content">
             <ul className="status">
-              <li><div>D</div><div>{this.state.dit}</div></li>
-              <li><div>R</div><div>{this.state.riot}</div></li>
+              <li><div>a</div><div>{this.state.a}</div></li>
+              <li><div>b</div><div>{this.state.b}</div></li>
+              <li><div>c</div><div>{this.state.c}</div></li>
+              <li><div>b</div><div>{this.state.d}</div></li>
             </ul>
             <p>{this.state.questions[this.state.index].desc}</p>
             <Cards 
